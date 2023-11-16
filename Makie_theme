@@ -1,0 +1,18 @@
+publication_theme_two_col() = Theme(
+    # fontsize=,
+    # font="CMU Serif",
+    Axis=(
+        whiskerwidth=10,
+        # grid = false,
+        xlabelsize=25, xlabelpadding=+2, 
+        ylabelsize=25, ylabelpadding=+5,
+        xgridvisible=false, ygridvisible=false,
+        xtickalign=1, ytickalign=1,
+        yticklabelsize=25, xticklabelsize=25,
+        # yticksize=10, xticksize=10,
+        # xlabel="x", ylabel="y"
+    ),
+    # Legend=(framecolor=(:black, 0.5), bgcolor=(:white, 0.5), labelsize=16),
+    # errorbar=(whiskerwidth = 10)
+    # Colorbar=(ticksize=16, tickalign=1, spinewidth=0.5),
+)
