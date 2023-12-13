@@ -1,5 +1,9 @@
 """
 Translate a vector from Cartesian to Spherical coordinate
+
+return a vector [theta, phi]
+  - theta: polar angle [0, pi]
+  - phi: azimuthal angle in x-y plane [0, 2pi]
 """
 function cart2sph(vec)
   theta = acos(vec[3])
